@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+header, footer, .logos_set {
+    background-color: rgb(52, 9, 91);
+    height: 80px;
+    font-size: x-large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#content {
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    height: 150px;
+}
+
+.mainSection {
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#img {
+    margin: 70px 50px 70px 0px;
+}
+
+.logos_set {
+    background-color: blueviolet;
+    /* width: 2px;
+    height: 2px; */
+}
+
+.logos {
+    width: 35px;
+    height: 25px;
+    margin-right: 10px;
+}

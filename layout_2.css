@@ -1,0 +1,39 @@
+* {
+    text-align: center;
+    font-weight: 500;
+}
+
+body {
+    max-width: 100%;
+    max-height: 100%;
+    margin: 5px;
+    padding: 0;
+    background-color: white;
+    color: rgb(7, 134, 15);
+    border: 1px solid rgb(7, 134, 15);
+}
+
+header, nav, .cls_body, footer {
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid rgb(7, 134, 15);
+}
+
+nav {
+    height: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainSection {
+    display: flex;
+}
+
+.cls_body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 550px;
+    width: 500px;
+}

@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header, nav, section, aside, article, footer {
+    padding: 20px;
+    font-weight: 600;
+}
+
+header {
+    background-color: rgb(0, 255, 238);
+}
+
+nav {
+    background-color: aquamarine;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.mainSection {
+    display: flex;
+}
+
+section {
+    max-height: 100%;
+    max-width: 60%;
+}
+
+.sections {
+    max-height: 100%;
+    max-width: 100%;
+    background-color: rgb(241, 169, 35);
+    display: block;
+    width: 1000px;
+    height: 120px;
+    margin: 5px;
+    padding: 5px;
+}
+
+article {
+    max-height: 100%;
+    max-width: 70%;
+    width: 1100px;
+    display: inline-block;
+    margin: 5px;
+    background-color: rgb(0, 145, 255);
+}
+
+aside {
+    max-height: 100%;
+    max-width: 40%;
+    width: 350px;
+    display: inline-block;
+    background-color: rgb(191, 0, 255);
+    margin: 5px;
+}
+
+footer {
+    height: 20px;
+    background-color: rgb(0, 255, 238);
+}
